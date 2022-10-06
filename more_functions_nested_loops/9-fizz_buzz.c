@@ -17,10 +17,10 @@ char fg[] = "FizzBuzz";
 
 for (i = 1; i <= 100; i++)
 {
-if (i == 100)
-printf("%s ", g);
-else if ((i % 3 == 0) && (i % 5 == 0))
+if ((i % 3 == 0) && (i % 5 == 0))
 printf("%s ", fg);
+else if (i == 100)
+printf("%s ", g);
 else if (i % 3 == 0)
 printf("%s ", f);
 else if (i % 5 == 0)
