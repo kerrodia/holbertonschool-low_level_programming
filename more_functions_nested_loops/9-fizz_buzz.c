@@ -26,7 +26,9 @@ printf("%s ", f);
 else if (i % 5 == 0)
 printf("%s ", g);
 else
+{
 printf("%d ", i);
+}
 }
 printf("\n");
 return (0);
