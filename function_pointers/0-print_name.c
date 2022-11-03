@@ -3,8 +3,8 @@
 #include "function_pointers.h"
 
 /**
- * print_name - Prints a name.
- * @name: name
+ * print_name - Prints a name as is.
+ * @name: name of the person
  * @f: A pointer to a function that prints a name.
  * Return: void.
  */
